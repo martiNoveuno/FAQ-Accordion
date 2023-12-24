@@ -1,0 +1,91 @@
+@font-face {
+  font-family: "Work Sans";
+  src: url(assets/fonts/static/WorkSans-Regular.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-image: url("assets/images/background-pattern-desktop.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-top: 10%;
+  width: 100%;
+  background-color: hsl(275, 100%, 97%);
+  font-family: "Work Sans", sans-serif;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 30px;
+  margin-bottom: 50px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.faqs {
+  display: flex;
+}
+
+.faqs img {
+  margin-right: 10px;
+}
+
+h1 {
+  color: hsl(292, 42%, 14%);
+  font-weight: 700;
+}
+
+.accordion-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  font-family: inherit;
+  background-color: inherit;
+  border: none;
+  outline: none;
+  color: hsl(292, 42%, 14%);
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+p {
+  color: hsl(292, 16%, 49%);
+  font-size: 16px;
+  font-weight: 400;
+  padding: 0 0 0 20px;
+}
+
+.accordion-content {
+  display: none;
+}
+
+.accordion-btn:hover {
+  color: hsl(288, 59%, 58%);
+}
+
+.icon-minus {
+  display: none;
+}
+
+.separator {
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.1);
+  margin: 15px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
